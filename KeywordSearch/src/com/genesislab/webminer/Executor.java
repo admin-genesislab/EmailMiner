@@ -7,7 +7,7 @@ public class Executor
 		CoreBase executeScript = new CoreBase();
 		try 
 		{
-			executeScript.GoogleSearch("selenium", 1);
+			executeScript.GoogleSearch("Sri Lanka Telecom", 1);
 		} 
 		catch (InterruptedException e)
 		{

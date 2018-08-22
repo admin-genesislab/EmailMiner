@@ -4,5 +4,6 @@
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="src" path="resources"/>
 	<classpathentry kind="lib" path="resources/selenium-server-standalone-3.8.1.jar"/>
+	<classpathentry kind="lib" path="E:/Local_Drive/Setup/konara/jxl.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

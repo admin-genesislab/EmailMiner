@@ -15,7 +15,7 @@
         
       <body>
         
-          <header class= "headerr">
+          <header class= "header">
               <div class="row"  >
                   <div class="col-lg-6 logo-holder">
                       <img src="image.png" height="50px" width="50px">
@@ -48,7 +48,7 @@
           </section>
           
           <section class="boxes-wrapper">
-              <div class="row">
+              <div class="row" style="width:100%">
                   <div class="col-lg-3 box box-1">
                       <img src="globe-4-xxl.png" height="50px" width="50px">
                       <p class="four-box1"><b>EXCELLENT QUICK RESULT</b></p>
@@ -70,14 +70,14 @@
                   
           
           <Section class= "our-services">
-              <div class="row">
+              <div class="row" style="width:100%">
                   <h2>Our Services</h2>
               </div>
           </Section >        
                   
           
           <section class="sercice-det">
-              <div class="row">
+              <div class="row" style="width:100%">
                   <div class="col-lg-4 boxx boxx-1">
                       <h3>Results in excellent speed</h3>
                       <p>All our modules are built with the possibility to choose between different design and you change </p><br>
@@ -100,7 +100,7 @@
           </section>        
           
           <Section class= "our-pricing">
-              <div class="row">
+              <div class="row" style="width:100%">
                   <h2><b>OUR PRICING</b></h2>
               </div>
           </Section >   

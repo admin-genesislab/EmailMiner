@@ -44,16 +44,18 @@ public class UserController extends HttpServlet
 			boolean validity = userDAO.checkUser(username, password);
 			System.out.println(validity);
 			if (validity)
-				forward = "index";
+				forward = "/index.jsp";
 			else
-				forward = "login";
+				forward = "/login.jsp";
+			
 		}
 		else if(action.equals("registerUser"))
 		{
 			
 		}
+		request.getRequestDispatcher("/index.jsp").forward(request, response);
 		
-		RequestDispatcher view = request.getRequestDispatcher(forward);
- 		view.forward(request, response);
+		//RequestDispatcher view = request.getRequestDispatcher("index.jsp");
+ 		//view.forward(request, response);
 	}
 }

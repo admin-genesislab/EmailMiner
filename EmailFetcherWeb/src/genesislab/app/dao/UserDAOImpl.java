@@ -40,13 +40,14 @@ public class UserDAOImpl implements UserDAO
 		// TODO Auto-generated method stub
 		try
 		{
+			System.out.println("before execution");
 			String sql = "SELECT * FROM users where usrName = ? AND password = ?";
 			PreparedStatement pst = connection.prepareStatement(sql);
 			pst.setString(1, username);
 			pst.setString(2, password);
 			
 			ResultSet rs = pst.executeQuery();
-			
+			System.out.println("Came here");
 			if(rs.next())
 			{
 				return true;
@@ -56,6 +57,7 @@ public class UserDAOImpl implements UserDAO
 		}
 		catch(Exception ex)
 		{
+			ex.printStackTrace();
 			return false;
 		}
 	}
